@@ -1,0 +1,158 @@
+{
+  "id": "feec349e-f267-466b-ab8d-2921980467e7",
+  "version": "2.0",
+  "name": "https://www.homedepot.ca/",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "200d2fb5-cd7b-466b-b755-75f707d9f610",
+    "name": "test10",
+    "commands": [{
+      "id": "3836be21-dbea-47d4-874d-7aa2118a194e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "202fb92d-8266-45d2-b3d3-0e2dcaa3074e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1710x1069",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bff0505d-7331-40dd-924c-8a4d89af405a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a277279-1294-41e2-872f-55c89dc1881a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__link > .hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b016ee30-20b1-42fa-9b73-5d1e9fc68dde",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='ValueCentreMainNavNodeContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Specials & Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a69cb9f5-2688-4b05-9b58-091672237f09",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='ValueCentreMainNavNodeContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Specials & Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9fbca7f-822c-47cc-80a6-d8c846753c42",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='ValueCentreMainNavNodeContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Specials & Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3f0b479-b017-421f-aabb-2810c9a34622",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(3) .hdca-button2__label",
+      "targets": [
+        ["css=.button:nth-child(3) .hdca-button2__label", "css:finder"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Limited Time Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45049cca-9632-4ad5-8de3-7e67f192d89a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsivegrid > .aem-Grid > .categorybanner:nth-child(3) .hdca-button2__label",
+      "targets": [
+        ["css=.responsivegrid > .aem-Grid > .categorybanner:nth-child(3) .hdca-button2__label", "css:finder"],
+        ["xpath=//a/div[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f50448f-e552-4e4f-9526-c826ff45312d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,279)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "677c48e4-9a9c-4551-9a0b-7016df16df11",
+      "comment": "",
+      "command": "click",
+      "target": "css=facet-in-store-shared .hdca-form-field__wrap-label",
+      "targets": [
+        ["css=facet-in-store-shared .hdca-form-field__wrap-label", "css:finder"],
+        ["xpath=//facet-in-store-shared/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'In Stock Today at  CALGARY CHINOOK  (78)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d43a3fb-db51-40be-85d0-16b4ed1921bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=plp-facet-oos .hdca-checkbox__faux-checkbox",
+      "targets": [
+        ["css=plp-facet-oos .hdca-checkbox__faux-checkbox", "css:finder"],
+        ["xpath=//plp-facet-oos/div/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d9fdefb-0534-4db2-afe6-7554a007aa8f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,89)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40d3f023-89a8-4590-9f6f-2a419c0fcd39",
+      "comment": "",
+      "command": "click",
+      "target": "css=#productCardIndex-0 > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=#productCardIndex-0 > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//article[@id='productCardIndex-0']/section[2]/button/span", "xpath:idRelative"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ac28b1d2-d117-4f3f-9891-23c8b52512c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.ca/", "https://www.realcanadiansuperstore.ca/"],
+  "plugins": []
+}

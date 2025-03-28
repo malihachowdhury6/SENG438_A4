@@ -1,0 +1,138 @@
+{
+  "id": "3e4d2a41-96ef-4777-85f9-b16146533dbc",
+  "version": "2.0",
+  "name": "test2",
+  "url": "https://www.homedepot.ca",
+  "tests": [{
+    "id": "b8465c6e-3256-4123-98d3-ba0c2bc294a3",
+    "name": "test2",
+    "commands": [{
+      "id": "e5c3fa14-188a-41a2-bf7c-d92b1f3c643e",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f67c6ab-ce5e-4347-acf7-cf3969d6e36a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1710x1069",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b90f4d0-fa54-45b2-bf7c-c626f5b1809c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Calgary North Hill')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e635fa8-8fed-4d51-bbc4-948b4abb5b33",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14e2ac45-2761-40fd-95d9-e39be8a9eb16",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d89093db-a37c-4899-ade1-e643717f5b80",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35c02344-2e71-4af2-97e0-5a1be5e4e6e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label",
+      "targets": [
+        ["css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label", "css:finder"],
+        ["xpath=//div[2]/div[3]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4da1376-0dfd-4cca-8ed1-fa1ca2e98046",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Calgary Chinook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aaaf7407-774d-45b4-9580-22233c39666b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04188f0f-736c-42a5-8a50-61cbe0be1816",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c1957673810-3 > svg > use",
+      "targets": [
+        ["css=.ng-tns-c1957673810-3 > svg > use", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ca5ec741-b0b0-4ab5-b52a-f8b703ab91b6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}
