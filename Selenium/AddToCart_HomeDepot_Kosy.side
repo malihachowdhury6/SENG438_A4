@@ -1,0 +1,180 @@
+{
+  "id": "91f609a3-d5f5-4fd7-88fb-8c393c72647a",
+  "version": "2.0",
+  "name": "HomeDepotTests",
+  "url": "https://www.homedepot.ca",
+  "tests": [{
+    "id": "1c96ff1a-b390-408b-b1a3-bb8c8af6589a",
+    "name": "Add to cart",
+    "commands": [{
+      "id": "b429054b-4e04-41f2-af0b-0950030d278e",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef15bc61-ab97-49af-8ab5-0a5f221f0ac4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1052x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09deda43-1321-4769-ba0a-a8865016ecfe",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@type='search']",
+      "targets": [
+        ["id=id9696", "id"],
+        ["css=#id9696", "css:finder"],
+        ["xpath=//input[@id='id9696']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc12fde8-1cf8-429c-aa02-bad05a85885d",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@type='search']",
+      "targets": [
+        ["id=id9696", "id"],
+        ["css=#id9696", "css:finder"],
+        ["xpath=//input[@id='id9696']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "couch"
+    }, {
+      "id": "b4bc6837-c7a3-4b20-9669-e81fe23e1b57",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "//input[@type='search']",
+      "targets": [
+        ["id=id9696", "id"],
+        ["css=#id9696", "css:finder"],
+        ["xpath=//input[@id='id9696']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b7769b26-9bf8-4663-8f4f-692cd11b3a41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button__icon use",
+      "targets": [
+        ["css=.acl-action-button__icon use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "95161aaf-4f33-4077-a723-4a708d31adbf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,55.33333206176758)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8d59b9d-7edf-4bba-991a-1300f22cd00b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,424)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb165a0f-3b3d-4603-8d21-accad6a6b7f2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,674)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b93c9a07-8149-446a-9a75-cef5d19d3cb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) .acl-image__image",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-image__image", "css:finder"],
+        ["xpath=//img[@alt='Sectional Sofa with Movable Ottoman for Bedroom']", "xpath:img"],
+        ["xpath=//div[2]/a/acl-image/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27daaaca-c8c3-42d5-b851-be36236aacd2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c372c577-8572-477b-bac8-9dd10f43376a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,298)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f75c26ed-2219-45c0-8eee-abc4c004501d",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8ae528e-e129-40c3-9bfe-dd5099c54532",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2)",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "393a6378-8e69-480d-8e98-2435938bf4d2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,419.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43e5efbf-f203-493d-a45c-a91b9d6c1f26",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,322)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1154aad-d854-4c31-b35f-868ad78bf6bd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,111.33333587646484)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7c9914c-9a78-4a1e-a439-e7becf078706",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,627.3333129882812)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e32ed9eb-5dcd-461a-b5cd-9d83856f2100",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}

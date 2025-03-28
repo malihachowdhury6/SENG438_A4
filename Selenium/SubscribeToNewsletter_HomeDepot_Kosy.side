@@ -1,0 +1,244 @@
+{
+  "id": "9ff9df59-bd02-493d-b199-2f11871c6b31",
+  "version": "2.0",
+  "name": "SubscribeToNewsletter",
+  "url": "https://www.homedepot.ca",
+  "tests": [{
+    "id": "f8fad536-41e8-4239-9373-cdfcc9dbcaf8",
+    "name": "SubscribeToNewsletter",
+    "commands": [{
+      "id": "04d5d462-67b1-44c9-9c9e-0b8945d142f0",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c82794a2-2ef1-4ab0-aa1a-190aa8bd9bdb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x780",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2afe49c-b5b0-4c94-8004-c82a22d63678",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1910)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cc1e014-68b9-4d65-b998-39602f6845bb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4415.33349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "636b4dc1-c6dc-4b39-a488-6b8577579c20",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4649.33349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c001f36d-c473-495c-9d79-735f9f5f22f2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Subscribe",
+      "targets": [
+        ["linkText=Subscribe", "linkText"],
+        ["css=.hdca-button-container--content-horizontal--center:nth-child(3) > .hdca-button2", "css:finder"],
+        ["xpath=(//a[contains(@href, '/customer-support/subscribe?intid=GFTR%7CHDweb%7CEmailAcqBnr5-50InStr%7CEN%7Clsh%7C190710')])[2]", "xpath:href"],
+        ["xpath=//footer/article/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a48ddf8-61ef-4d05-9c05-6d81d876b7a1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,32)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "860e936a-5b70-472f-84bd-a86226e8736a",
+      "comment": "",
+      "command": "click",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=first-name", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b86442fe-7b06-47f1-9768-cc819bcf69a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=first-name", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Kosy"
+    }, {
+      "id": "f4a52066-b3c8-422d-a935-cf443c994f39",
+      "comment": "",
+      "command": "click",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=last-name", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aac25208-ddad-483e-8e34-aea0492e268c",
+      "comment": "",
+      "command": "type",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=last-name", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Onyejemezi"
+    }, {
+      "id": "ff2b4658-9d62-4b30-9299-6e3ea1970209",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "043c826f-d6e9-41be-bf8f-141d6e526e85",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "tahliaost@gmail.com"
+    }, {
+      "id": "9e825a61-6872-401d-9b98-e76d9c278f6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=postal-code",
+      "targets": [
+        ["id=postal-code", "id"],
+        ["name=postal-code", "name"],
+        ["css=#postal-code", "css:finder"],
+        ["xpath=//input[@id='postal-code']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff507abe-954e-4bcb-9231-15873d41556d",
+      "comment": "",
+      "command": "type",
+      "target": "id=postal-code",
+      "targets": [
+        ["id=postal-code", "id"],
+        ["name=postal-code", "name"],
+        ["css=#postal-code", "css:finder"],
+        ["xpath=//input[@id='postal-code']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "T3A 5P3"
+    }, {
+      "id": "3cfeaffb-6ad5-49b3-86df-4701ba8c901a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-border--bottom",
+      "targets": [
+        ["css=.acl-border--bottom", "css:finder"],
+        ["xpath=//div/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9439f28c-b626-4023-aad6-9cf6caef86f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-medium-size--1-of-3:nth-child(2) .hdca-checkbox__faux-checkbox:nth-child(2)",
+      "targets": [
+        ["css=.hdca-medium-size--1-of-3:nth-child(2) .hdca-checkbox__faux-checkbox:nth-child(2)", "css:finder"],
+        ["xpath=//label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1ac09ee-bed7-4f10-9c52-aa9d1aee20bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-medium-size--1-of-3:nth-child(3) .hdca-checkbox__faux-checkbox:nth-child(2)",
+      "targets": [
+        ["css=.hdca-medium-size--1-of-3:nth-child(3) .hdca-checkbox__faux-checkbox:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/div/div/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ca6b6cb-e11a-4401-a962-768af17f9896",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-medium-size--1-of-3:nth-child(4) .hdca-checkbox__faux-checkbox:nth-child(2)",
+      "targets": [
+        ["css=.hdca-medium-size--1-of-3:nth-child(4) .hdca-checkbox__faux-checkbox:nth-child(2)", "css:finder"],
+        ["xpath=//div[4]/div/div/div/div/div/div/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b667a48-c04b-4d00-b683-dd300d3d3c1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-mt--x-small > .acl-button__label",
+      "targets": [
+        ["css=.acl-mt--x-small > .acl-button__label", "css:finder"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Subscribe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfe8348f-bc6e-45c4-8582-27fcae2e05b4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,464)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86792cc4-21b7-44fd-8f73-1df66c1d0aa5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,199.3333282470703)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b028e00b-c09a-40ad-815e-9c37e2e26baa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}
