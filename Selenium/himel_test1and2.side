@@ -1,0 +1,185 @@
+{
+  "id": "efce485a-89f4-4c6c-9b16-36b7dcdc4f84",
+  "version": "2.0",
+  "name": "Seng438",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "2fe75e1c-ff9d-4ebe-9660-0430afe9c553",
+    "name": "Test1",
+    "commands": [{
+      "id": "4ca023d0-a60c-41d2-9708-2155d72627a4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2121cd63-9e21-4325-9859-e2d044750fc3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "878x526",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff726fb1-1343-4a60-9107-d452e1d15f56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(4) .hdca-button2__label",
+      "targets": [
+        ["css=.button:nth-child(4) .hdca-button2__label", "css:finder"],
+        ["xpath=//div[4]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Snow Melting')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f1dc8fa-3dc9-4140-a73b-93a6efd185e4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,170)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8080be7-9f02-4d84-b0dd-55aa9368420f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) .acl-image__image",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-image__image", "css:finder"],
+        ["xpath=//img[@alt='Premium Ice Melter (18kg)']", "xpath:img"],
+        ["xpath=//div[2]/a/acl-image/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b621c3f5-2adf-408d-a37e-2978a115ac26",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65d43fd4-c966-4dcc-8f97-4f9210c47bf5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1200.6666259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "094c16f2-8bb8-491b-89e0-79d36770fbd6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hdca-product__description-title",
+      "targets": [
+        ["css=.hdca-product__description-title", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Alaskan Premium Ice Melter (18kg)')]", "xpath:innerText"]
+      ],
+      "value": "Alaskan Premium Ice Melter (18kg)"
+    }]
+  }, {
+    "id": "507a6b43-33a5-41a9-883e-9dcfb6451f5c",
+    "name": "Test2",
+    "commands": [{
+      "id": "4e0e2283-1277-4933-abbd-88e1cac5a1e2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd67de41-cc17-43e7-bbc6-8ae6209ac05c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "878x526",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2bdc105-4fa2-467a-9559-9a45e15128df",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id4031", "id"],
+        ["css=#id4031", "css:finder"],
+        ["xpath=//input[@id='id4031']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acdf705d-f7f0-42e7-aabb-4144420d0c2c",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id4031", "id"],
+        ["css=#id4031", "css:finder"],
+        ["xpath=//input[@id='id4031']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "samsung washer"
+    }, {
+      "id": "183041bc-af44-4495-83ad-dfa4518ca4c6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id4031", "id"],
+        ["css=#id4031", "css:finder"],
+        ["xpath=//input[@id='id4031']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "17d56eb1-9389-4355-8eb3-d1280e7ba4d0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,146)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "622c005b-3c64-4bbf-be16-5aeb96f5d842",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) .acl-product-card__title--product-name",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-product-card__title--product-name", "css:finder"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'5.2 cu. ft. High-Efficiency Front Load Washer with Self-Clean+ in White - ENERGY STAR®')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53ce65e4-a007-4143-8120-e082a7d8ed37",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46b00e23-385d-4733-9cde-abad373f0f46",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,328.6666564941406)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7274013-b755-439d-9cd2-0ac9716b37e8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hdca-product__gallery-media-container",
+      "targets": [
+        ["css=.hdca-product__gallery-media-container", "css:finder"],
+        ["xpath=//hdca-image-viewer", "xpath:position"]
+      ],
+      "value": "Click/tap image to expand"
+    }]
+  }],
+  "suites": [{
+    "id": "1f177294-e60c-4867-92f3-2afa06332c2e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}
