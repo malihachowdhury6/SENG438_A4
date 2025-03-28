@@ -1,0 +1,133 @@
+{
+  "id": "62b1f150-d932-4e3f-8263-131326e9d953",
+  "version": "2.0",
+  "name": "test8",
+  "url": "https://www.homedepot.ca",
+  "tests": [{
+    "id": "babde23d-c9bc-4bc7-aaf8-0703bd84b2f6",
+    "name": "test8",
+    "commands": [{
+      "id": "f6aa0274-4e59-456e-8c11-ff23b6c92e7f",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9f15379-e1fe-4d4d-ade8-a2c8b132dff7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "465x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e396deed-b032-4bea-a09f-aa7c3aa1602b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,14.666666984558105)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d84de304-c222-47cf-a333-188aaeff2c75",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondarybanner:nth-child(3) .hdca-button2__label",
+      "targets": [
+        ["css=.secondarybanner:nth-child(3) .hdca-button2__label", "css:finder"],
+        ["xpath=//div[3]/article/a/div[2]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0762926-e2c6-437a-a1ea-801dc0530454",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondarybanner:nth-child(3) .hdca-button2__label",
+      "targets": [
+        ["css=.secondarybanner:nth-child(3) .hdca-button2__label", "css:finder"],
+        ["xpath=//div[3]/article/a/div[2]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da5beae1-5749-47d3-9c99-ee86190e8a44",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,536)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6b402eb-bac4-4c21-af7c-ff5e5de5cd64",
+      "comment": "",
+      "command": "click",
+      "target": "css=#productCardIndex-0 .acl-button__label",
+      "targets": [
+        ["css=#productCardIndex-0 .acl-button__label", "css:finder"],
+        ["xpath=//article[@id='productCardIndex-0']/div[2]/div[2]/section/button/span", "xpath:idRelative"],
+        ["xpath=//section/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a4cbad2-3aed-48a3-8133-e0af7002e669",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,536)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d81096e-6128-4093-a727-7e56f73bedef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2)",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "917365b5-5ed2-47e4-aa8f-b4bab0ef3252",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,30.66666603088379)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8adbdf59-c0ff-4234-a919-f768c682441a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,820.683349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa9426f2-4df3-49a6-b581-38e2443783ec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4765.2666015625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc103ba9-0d41-45e3-99ad-40587d269b5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#checkoutButton > .acl-button__label",
+      "targets": [
+        ["css=#checkoutButton > .acl-button__label", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']/span", "xpath:idRelative"],
+        ["xpath=//cart-checkout-now-and-checkout-with-paypal/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Checkout Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "009203e0-254e-4fea-813b-746e60213b25",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["babde23d-c9bc-4bc7-aaf8-0703bd84b2f6"]
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}

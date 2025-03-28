@@ -1,0 +1,277 @@
+{
+  "id": "de721b76-7bee-4915-9548-2a3da39f3fbc",
+  "version": "2.0",
+  "name": "test6",
+  "url": "https://www.homedepot.ca",
+  "tests": [{
+    "id": "f1803078-a29b-4d91-bebb-1949c6e4f98a",
+    "name": "test6",
+    "commands": [{
+      "id": "f2aac3c8-5bcf-41e9-92d9-ae024031be76",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa99ffa2-a55b-40ce-86c4-256141877250",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cb87a01-dcd7-4338-95fe-0e0f08e737f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-cms-styled-layout-container__content:nth-child(2) > .secondarybanner:nth-child(2) .hdca-cms-secondary-banner__image",
+      "targets": [
+        ["css=.hdca-cms-styled-layout-container__content:nth-child(2) > .secondarybanner:nth-child(2) .hdca-cms-secondary-banner__image", "css:finder"],
+        ["xpath=//img[@alt='Refrigerators']", "xpath:img"],
+        ["xpath=//div[2]/article/a/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff523bd4-ba21-463d-94f3-258860b559a3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3.3333332538604736)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f1d920a-3ed5-4e1a-b419-0d439ee6caaf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,520)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c3b2f29-1e2e-45fd-897c-6c0c49983ebb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1352)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e29f4c68-6c88-4ffb-8782-b98f55808788",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondarybanner:nth-child(12) .hdca-cms-secondary-banner__image",
+      "targets": [
+        ["css=.secondarybanner:nth-child(12) .hdca-cms-secondary-banner__image", "css:finder"],
+        ["xpath=//img[@alt='Bottom Freezer Refrigerators']", "xpath:img"],
+        ["xpath=//div[12]/article/a/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aa9241b-18fd-4a69-aa77-d73074354038",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-product-card:nth-child(1) .acl-button",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-button", "css:finder"],
+        ["xpath=//div[2]/section/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "816b5483-c3f2-4f04-ad31-f99fecb1de0c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-product-card:nth-child(1) .acl-button",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-button", "css:finder"],
+        ["xpath=//div[2]/section/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db0213ab-560a-4f04-ac25-9719617977fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-button__label", "css:finder"],
+        ["xpath=//div[2]/section/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c477e958-b021-4f33-a9b0-1c6d391b95e6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-product-card:nth-child(1) .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-button__label", "css:finder"],
+        ["xpath=//div[2]/section/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a832494-0a0f-47f2-9a25-8e499d5a7605",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,520)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b56dbfd-2905-4040-b371-5bb23d77f9e4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-product-card:nth-child(1) .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) .acl-button__label", "css:finder"],
+        ["xpath=//div[2]/section/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4b36e56-d9c1-488b-82ab-33d623ab37e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-button:nth-child(2)",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fcad0b8-ccd8-4cc9-af38-0e15457da759",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-button:nth-child(2)",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86618c0e-f56c-46c6-b142-05c4cdb5a03f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7901883-4246-42bd-bfcb-e5662963ca93",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9df3ccfb-9305-49e3-b457-39d2c0848242",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,30.66666603088379)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7797d9ee-24a4-4faf-ba6d-b2ecee35e06a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,822.683349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b928226-832e-41af-8c8a-0403e7da98e4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4124.2001953125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "056e3e52-79fd-4076-9cd3-3669e7876873",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4418.86669921875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b76212e2-8cd4-4197-813b-f98cd20fab1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkoutButton",
+      "targets": [
+        ["id=checkoutButton", "id"],
+        ["css=#checkoutButton", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
+        ["xpath=//div[@id='orderSummaryContainer']/ng-component/cart-checkout-now-and-checkout-with-paypal/button", "xpath:idRelative"],
+        ["xpath=//cart-checkout-now-and-checkout-with-paypal/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fc92d92-0cd7-41bc-844b-9fe496a85b97",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-button:nth-child(2)",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30d0394d-d635-4a90-bfc9-0c7018e20fe6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-button:nth-child(2)",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout as Guest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9929548-4333-4774-ab60-37ee976e729d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-button:nth-child(2)",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout as Guest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c64e518-e4de-4421-b8cc-9773d5a6a211",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2)",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout as Guest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f9636db-a980-42da-ac58-e67890ba3fb2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f1803078-a29b-4d91-bebb-1949c6e4f98a"]
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}
